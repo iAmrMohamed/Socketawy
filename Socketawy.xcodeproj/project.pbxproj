@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29713A7C20FD759700AE004D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29713A7B20FD759700AE004D /* AppDelegate.swift */; };
+		29713A7E20FD759700AE004D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29713A7D20FD759700AE004D /* ViewController.swift */; };
+		29713A8020FD759800AE004D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29713A7F20FD759800AE004D /* Assets.xcassets */; };
+		29713A8320FD759800AE004D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29713A8120FD759800AE004D /* Main.storyboard */; };
+		29B90A1820FEA050003A4CC3 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B90A1720FEA050003A4CC3 /* AppExtensions.swift */; };
+		3D6D9A6C3287F37B081F52AA /* Pods_Socketawy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3ABBB8D320A5A71CC11EE8 /* Pods_Socketawy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29713A7820FD759700AE004D /* Socketawy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socketawy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29713A7B20FD759700AE004D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29713A7D20FD759700AE004D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29713A7F20FD759800AE004D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29713A8220FD759800AE004D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29713A8420FD759800AE004D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29713A8520FD759800AE004D /* Socketawy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Socketawy.entitlements; sourceTree = "<group>"; };
+		29B90A1720FEA050003A4CC3 /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
+		9C3ABBB8D320A5A71CC11EE8 /* Pods_Socketawy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Socketawy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC129EC4165A107770EBC30 /* Pods-Socketawy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socketawy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Socketawy/Pods-Socketawy.debug.xcconfig"; sourceTree = "<group>"; };
+		F989CBAB3243EA0BBFBE6B2F /* Pods-Socketawy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socketawy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Socketawy/Pods-Socketawy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29713A7520FD759700AE004D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6D9A6C3287F37B081F52AA /* Pods_Socketawy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29713A6F20FD759700AE004D = {
+			isa = PBXGroup;
+			children = (
+				29713A7A20FD759700AE004D /* Socketawy */,
+				29713A7920FD759700AE004D /* Products */,
+				F68043A26919E809F053E430 /* Pods */,
+				BED6F6D5E754D7D1A0A0F594 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29713A7920FD759700AE004D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29713A7820FD759700AE004D /* Socketawy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29713A7A20FD759700AE004D /* Socketawy */ = {
+			isa = PBXGroup;
+			children = (
+				29713A7B20FD759700AE004D /* AppDelegate.swift */,
+				29713A8120FD759800AE004D /* Main.storyboard */,
+				29713A7D20FD759700AE004D /* ViewController.swift */,
+				29B90A1720FEA050003A4CC3 /* AppExtensions.swift */,
+				29B90A1620FE9FA4003A4CC3 /* Support */,
+			);
+			path = Socketawy;
+			sourceTree = "<group>";
+		};
+		29B90A1620FE9FA4003A4CC3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				29713A8420FD759800AE004D /* Info.plist */,
+				29713A7F20FD759800AE004D /* Assets.xcassets */,
+				29713A8520FD759800AE004D /* Socketawy.entitlements */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		BED6F6D5E754D7D1A0A0F594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C3ABBB8D320A5A71CC11EE8 /* Pods_Socketawy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F68043A26919E809F053E430 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEC129EC4165A107770EBC30 /* Pods-Socketawy.debug.xcconfig */,
+				F989CBAB3243EA0BBFBE6B2F /* Pods-Socketawy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29713A7720FD759700AE004D /* Socketawy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29713A8820FD759800AE004D /* Build configuration list for PBXNativeTarget "Socketawy" */;
+			buildPhases = (
+				1D2E4113C7942A75FE542B43 /* [CP] Check Pods Manifest.lock */,
+				29713A7420FD759700AE004D /* Sources */,
+				29713A7520FD759700AE004D /* Frameworks */,
+				29713A7620FD759700AE004D /* Resources */,
+				423C7094FD2EEF33CB2C5AA3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Socketawy;
+			productName = Socketawy;
+			productReference = 29713A7820FD759700AE004D /* Socketawy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29713A7020FD759700AE004D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Amr Mohamed";
+				TargetAttributes = {
+					29713A7720FD759700AE004D = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 29713A7320FD759700AE004D /* Build configuration list for PBXProject "Socketawy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29713A6F20FD759700AE004D;
+			productRefGroup = 29713A7920FD759700AE004D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29713A7720FD759700AE004D /* Socketawy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29713A7620FD759700AE004D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29713A8020FD759800AE004D /* Assets.xcassets in Resources */,
+				29713A8320FD759800AE004D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D2E4113C7942A75FE542B43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Socketawy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		423C7094FD2EEF33CB2C5AA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Socketawy/Pods-Socketawy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Socketawy/Pods-Socketawy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29713A7420FD759700AE004D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B90A1820FEA050003A4CC3 /* AppExtensions.swift in Sources */,
+				29713A7E20FD759700AE004D /* ViewController.swift in Sources */,
+				29713A7C20FD759700AE004D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29713A8120FD759800AE004D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29713A8220FD759800AE004D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29713A8620FD759800AE004D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29713A8720FD759800AE004D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		29713A8920FD759800AE004D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC129EC4165A107770EBC30 /* Pods-Socketawy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Socketawy/Support/Socketawy.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8QSB7Y378E;
+				INFOPLIST_FILE = "$(SRCROOT)/Socketawy/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAmrMohamed.Socketawy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		29713A8A20FD759800AE004D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F989CBAB3243EA0BBFBE6B2F /* Pods-Socketawy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Socketawy/Support/Socketawy.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8QSB7Y378E;
+				INFOPLIST_FILE = "$(SRCROOT)/Socketawy/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAmrMohamed.Socketawy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29713A7320FD759700AE004D /* Build configuration list for PBXProject "Socketawy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29713A8620FD759800AE004D /* Debug */,
+				29713A8720FD759800AE004D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29713A8820FD759800AE004D /* Build configuration list for PBXNativeTarget "Socketawy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29713A8920FD759800AE004D /* Debug */,
+				29713A8A20FD759800AE004D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29713A7020FD759700AE004D /* Project object */;
+}
