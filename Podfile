@@ -1,4 +1,4 @@
-platform :osx, '10.13.4'
+platform :osx, '10.10'
 use_frameworks!
 
 target 'Socketawy' do
